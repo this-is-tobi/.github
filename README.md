@@ -18,14 +18,27 @@ The repository is organized as follows:
 ./ 
 ├── .github/ 
 │   ├── ISSUE_TEMPLATE/ 
-│   │   ├── BUG_REPORT.md # Template for reporting bugs
-│   │   ├── FEATURE-REQUESTt.md # Template for requesting new features
-│   │   └── config.yml # Configuration for issue templates
+│   │   │   # Template for reporting bugs
+│   │   ├── BUG_REPORT.md
+│   │   │
+│   │   │   # Template for requesting new features
+│   │   ├── FEATURE-REQUEST.md
+│   │   │
+│   │   │   # Configuration for issue templates
+│   │   └── config.yml
+│   │
 │   └── PULL_REQUEST_TEMPLATE/ 
-│       └── PR.md # Default pull request template
-├── CONTRIBUTING.md # Guidelines for contributing to my projects
-├── CODE_OF_CONDUCT.md # Code of conduct for contributors
-└── SECURITY.md # Security reporting guidelines
+│       │   # Default pull request template
+│       └── PR.md
+│
+│   # Guidelines for contributing to my projects
+├── CONTRIBUTING.md
+│
+│   # Code of conduct for contributors
+├── CODE_OF_CONDUCT.md
+│
+│   # Security reporting guidelines
+└── SECURITY.md
 
 ```
 
@@ -45,15 +58,5 @@ GitHub automatically detects and uses the files in this repository as default te
 ## Customization for Specific Repositories
 
 If a repository needs its own version of a template or workflow, it can define the file locally in its `.github` directory, overriding the default provided by this repository.
-
-## Contributing
-
-Suggestions for improving my templates are welcome ! Please open an issue or submit a pull request to propose changes.
-
-## License
-
-This repository is distributed under the [MIT License](LICENSE).
-
----
 
 For more information about GitHub's `.github` repository features, see [GitHub documentation on default community health files](https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file).
