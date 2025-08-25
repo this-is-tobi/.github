@@ -20,26 +20,19 @@ The repository is organized as follows:
 │   ├── ISSUE_TEMPLATE/ 
 │   │   │   # Template for reporting bugs
 │   │   ├── BUG_REPORT.md
-│   │   │
 │   │   │   # Template for requesting new features
 │   │   ├── FEATURE-REQUEST.md
-│   │   │
 │   │   │   # Configuration for issue templates
 │   │   └── config.yml
-│   │
 │   └── PULL_REQUEST_TEMPLATE/ 
 │       │   # Default pull request template
 │       └── PR.md
-│
 │   # Guidelines for contributing to my projects
 ├── CONTRIBUTING.md
-│
 │   # Code of conduct for contributors
 ├── CODE_OF_CONDUCT.md
-│
 │   # Security reporting guidelines
 └── SECURITY.md
-
 ```
 
 ### Key Features
