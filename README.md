@@ -24,9 +24,8 @@ The repository is organized as follows:
 │   │   ├── FEATURE-REQUEST.md
 │   │   │   # Configuration for issue templates
 │   │   └── config.yml
-│   └── PULL_REQUEST_TEMPLATE/ 
-│       │   # Default pull request template
-│       └── PR.md
+│   │   # Default pull request template
+│   └── pull_request_template.md
 │   # Guidelines for contributing to my projects
 ├── CONTRIBUTING.md
 │   # Code of conduct for contributors
